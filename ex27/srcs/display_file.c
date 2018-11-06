@@ -6,11 +6,11 @@
 /*   By: dde-jesu <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/05 17:06:52 by dde-jesu          #+#    #+#             */
-/*   Updated: 2018/11/05 17:21:50 by dde-jesu         ###   ########.fr       */
+/*   Updated: 2018/11/06 09:29:11 by dde-jesu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#define SNS(s) s, sizeof(s)
+#define SNS(s) (s), (sizeof(s)-1)
 #include <unistd.h>
 #include <fcntl.h>
 
